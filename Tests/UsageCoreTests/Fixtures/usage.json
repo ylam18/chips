@@ -1,0 +1,164 @@
+[
+  {
+    "credits": {
+      "balanceIsWorkspace": false,
+      "balanceReadSucceeded": true,
+      "creditsAvailable": false,
+      "events": [],
+      "remaining": 0,
+      "updatedAt": "2026-11-03T06:13:22Z"
+    },
+    "pace": {
+      "primary": {
+        "deltaPercent": 16,
+        "etaSeconds": 5717,
+        "expectedUsedPercent": 39,
+        "stage": "farAhead",
+        "summary": "16% in deficit | Expected 39% used | Projected empty in 1h 36m",
+        "willLastToReset": false
+      }
+    },
+    "provider": "codex",
+    "rateWindowLabels": {
+      "primary": "Session",
+      "secondary": "Weekly"
+    },
+    "resetCredits": {
+      "available": 2,
+      "nextExpiresAt": "2026-11-30T19:03:27Z"
+    },
+    "source": "oauth",
+    "usage": {
+      "accountEmail": "user@example.com",
+      "codexResetCredits": {
+        "availableCount": 2,
+        "credits": [
+          {
+            "description": "Thanks for using Codex! You've been granted one free rate limit reset.",
+            "expires_at": "2026-11-30T19:03:27Z",
+            "granted_at": "2026-10-31T19:03:27Z",
+            "id": "codex-reset-credit-redacted",
+            "reset_type": "codex_rate_limits",
+            "status": "available",
+            "title": "Full reset (Weekly + 5 hr)"
+          },
+          {
+            "description": "Thanks for using Codex! You've been granted one free rate limit reset.",
+            "expires_at": "2026-12-01T20:52:01Z",
+            "granted_at": "2026-11-01T20:52:01Z",
+            "id": "codex-reset-credit-redacted",
+            "reset_type": "codex_rate_limits",
+            "status": "available",
+            "title": "Full reset (Weekly + 5 hr)"
+          }
+        ],
+        "updatedAt": "2026-11-03T06:13:22Z"
+      },
+      "dataConfidence": "exact",
+      "identity": {
+        "accountEmail": "user@example.com",
+        "loginMethod": "plus",
+        "providerID": "codex"
+      },
+      "loginMethod": "plus",
+      "planObservation": {
+        "observedAt": "2026-11-03T06:13:22Z",
+        "rawPlan": "plus",
+        "source": "usage_response"
+      },
+      "primary": {
+        "resetDescription": "4:16\u202fAM",
+        "resetsAt": "2026-11-03T09:16:55Z",
+        "usedPercent": 55,
+        "windowMinutes": 300
+      },
+      "providerCost": {
+        "balanceUpdatedAt": "2026-11-03T06:13:22Z",
+        "currencyCode": "Credits",
+        "limit": 0,
+        "period": "Extra usage",
+        "updatedAt": "2026-11-03T06:13:22Z",
+        "used": 0
+      },
+      "secondary": {
+        "resetDescription": "Nov 9 at 11:16\u202fPM",
+        "resetsAt": "2026-11-10T04:16:55Z",
+        "usedPercent": 9,
+        "windowMinutes": 10080
+      },
+      "tertiary": null,
+      "updatedAt": "2026-11-03T06:13:22Z"
+    },
+    "version": "0.166.0"
+  },
+  {
+    "pace": {
+      "primary": {
+        "deltaPercent": 0,
+        "etaSeconds": 13413,
+        "expectedUsedPercent": 25,
+        "stage": "onTrack",
+        "summary": "On pace | Expected 25% used | Projected empty in 3h 44m",
+        "willLastToReset": false
+      },
+      "secondary": {
+        "deltaPercent": -16,
+        "expectedUsedPercent": 85,
+        "stage": "farBehind",
+        "summary": "16% in reserve | Expected 85% used | Lasts until reset",
+        "willLastToReset": true
+      }
+    },
+    "provider": "claude",
+    "rateWindowLabels": {
+      "primary": "Session",
+      "secondary": "Weekly"
+    },
+    "source": "claude",
+    "usage": {
+      "accountEmail": "user@example.com",
+      "accountOrganization": "Example Org",
+      "dataConfidence": "percentOnly",
+      "extraRateWindows": [
+        {
+          "id": "claude-weekly-scoped-fable",
+          "title": "Fable only",
+          "window": {
+            "resetDescription": "Resets Nov 4 at 2:59am (America/New_York)",
+            "resetsAt": "2026-11-04T07:59:00Z",
+            "usedPercent": 2,
+            "windowMinutes": 10080
+          }
+        }
+      ],
+      "identity": {
+        "accountEmail": "user@example.com",
+        "accountOrganization": "Example Org",
+        "loginMethod": "Team",
+        "providerID": "claude"
+      },
+      "loginMethod": "Team",
+      "primary": {
+        "resetDescription": "Resets 4:59am (America/New_York)",
+        "resetsAt": "2026-11-03T09:59:00Z",
+        "usedPercent": 25,
+        "windowMinutes": 300
+      },
+      "providerCost": {
+        "currencyCode": "USD",
+        "limit": 500,
+        "period": "Monthly cap",
+        "updatedAt": "2026-11-03T06:13:30Z",
+        "used": 0
+      },
+      "secondary": {
+        "resetDescription": "Resets Nov 4 at 2:59am (America/New_York)",
+        "resetsAt": "2026-11-04T07:59:00Z",
+        "usedPercent": 69,
+        "windowMinutes": 10080
+      },
+      "tertiary": null,
+      "updatedAt": "2026-11-03T06:13:30Z"
+    }
+  }
+]
